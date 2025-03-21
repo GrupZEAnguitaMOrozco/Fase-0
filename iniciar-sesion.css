@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cuadrado {
+    width: 350px;
+    height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #323232;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #323232;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #323232;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #323232;
+    box-shadow: 2px 2px #323232;
+}
+
+.iniciar {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.iniciar a {
+    text-decoration: none;
+    color: white;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+/* D'aqui cap abaix es el codi css per el disseny de les franjes d'informació del usuari i de la contrasenya (uiverse.io)*/
+.oauthButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #323232;
+    background-color: white;
+    box-shadow: 4px 4px #323232;
+    font-size: 16px;
+    font-weight: 600;
+    color: #323232;
+    cursor: pointer;
+    transition: all 250ms;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.oauthButton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #212121;
+    z-index: -1;
+    transition: all 250ms;
+}
+
+.oauthButton:hover {
+    color: #e8e8e8;
+}
+
+.oauthButton:hover::before {
+    width: 100%;
+}
+
+.google p {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #323232;
+}
+
+.separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.separator > div {
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #666;
+}
+
+.separator > span {
+    color: #323232;
+    font-weight: 600;
+}

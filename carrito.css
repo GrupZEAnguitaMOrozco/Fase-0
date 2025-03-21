@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    font-family: Russ One, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 7);
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 25px;
+    background: #02ACE9;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 30px; 
+    gap: 8px;
+}
+
+.logo-container img {
+    width: 140px;
+    height: auto;
+}
+.logo-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Icons {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+}
+
+.Icons img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-left: 810px;
+}
+.carrito-container{
+    background-color: #E6D4;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #A78BFA;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 10px auto;
+    margin-left: 400px;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-comprar {
+    background-color: #c4a5f7;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;  
+    font-size: 20px;
+}
+.volver-btn{
+    background-color: #c4a5f7;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+}
+.volver-btn:hover{
+    background-color: #A78BFA;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    background: #051921;
+    color: #38B6FF;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.socials-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 0px;
+}
+
+.socials-icons a{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #38B6FF;
+    border-radius: 50%;
+    color: #38B6FF;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tienda {
+    text-align: left;
+    position: absolute;
+    right: 750px;
+    margin-top: 4px;
+    color: #38B6FF;
+}
+
+.tienda h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #38B6FF;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.tienda ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.tienda ul li a {
+    color: #38B6FF;
+    font-size: 18px;
+}
+
+.newsletter {
+    width: 250px;
+    padding: 20px;
+    background: #051921;
+    color: #38B6FF;
+    font-family: sans-serif;
+    position: absolute;
+    right: 100px;
+    margin-top: 300px;
+}
+.newsletter h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #38B6FF;
+    padding-bottom: 5px;
+}
+.newsletter input[type="email"]{
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #38B6FF;
+}
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.newsletter button{
+    width: 100%;
+    padding: 8px;
+    background: #38B6FF;
+    border: none;
+    color: #051921;
+    font-weight: bold;
+    cursor: pointer;
+}

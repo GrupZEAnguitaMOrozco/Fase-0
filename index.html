@@ -1,0 +1,113 @@
+<!-- En la pàgina principal hem cambiat el fet de que les imatges siguin diferents cada 5s. (linea 83 css)
+Pagina about-us.html (linea 44-64) i about-us.css (linea 127-182) hem cambiat el botó d'enviar
+Pagina design-xbox.html design-xbox.css i design-ps5.html design-ps5.css (hem fet que funcioni el botó d'afegir articles a la cistella, i que al afegir a la cistella, surti un missatge en pantalla verificant que s'ha afegit correctament
+Pagina cistella.html i cisteall.css, hem fet que al utilitzar el botó comprar hi aparegui una alerta a dalt de la pagina confirmant que s'ha comprat. A part que desapareguin els articles i que puguis modificar la compra
+Hem afegit a la pàgina principal un botó perquè es canviï de color a dark mode(linea 17-18) i hem editat també el css (linea 17-46) i js (linea 2-10)
+Hem afegit a la pagina principal un checkbox animat de la pagina uiverse (linea 93-109) https://uiverse.io/00Kubi/hot-dragonfly-56 i hem editat també el css (linea 246-294)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+    <div class="toogle"></div>
+
+    </div>
+    
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="">
+            <div class="logo">XComandament</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="x-design-ps5.html">X-DESIGN-PS5</a></li>
+                <li><a href="x-design-xbox.html">X-DESIGN-XBOX</a></li>
+                <li><a href="ofertes-novetats.html">OFERTES-I-NOVETATS</a></li>
+                <li><a href="about-us.html">ABOUT-US</a></li>
+                <li><a href="contacto.html">CONTACTE</a></li>
+            </ul>
+        </nav>
+        <div class="Icons">
+            <a href="carrito.html"><img src="images/carrito.png" alt=""></a>
+            <a href="iniciar-sesion.html"><img src="images/usuario.png" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <div class="content-container">
+            <div class="text-box">
+                <h2> Comandaments PS5 I XBOX</h2>
+            </div>
+            <div class="image-controller">
+                <img src="images/mandos.png" alt="Mando 1" class="active">
+                <img src="images/play5azul.png" alt="Mando 2">
+                <img src="images/mandogamerover.png" alt="Mando 3">
+                <img src="images/edición-Grefg.png" alt="Mando 4">
+            </div>            
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="explicacion">
+        <img src="images/explicacion.png" alt="">
+    </div>
+    <footer>
+        <div class="footer">
+        <div class="footer-content">
+        <div>
+            <h3> XComandament</h3>
+            <div class="socials-icons">
+                <a href="https://www.youtube.com/@XController-u9n">
+                    <img src="images/youtube.png" alt=""></a>
+                    <a href="https://x.com/XComandament"><img src="images/twitter.png" alt=""></a>
+                    <a href="https://www.instagram.com/xcomandament_oficial/"><img src="images/instagram.png" alt=""></a>
+                    <a href="https://www.tiktok.com/@xcomandament?lang=es"><img src="images/tiktok.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <p> A XComandament podràs configurar el teu
+            <br> comandament personalitzat per PS5 i XBOX.
+            <br> Tots dos d'una qualitat excel·lent, bon servei i 
+            <br> preus competitius. </p>
+        <div class="tienda">
+            <h3>TENDA</h3>
+            <ul>
+                <li><a href="x-design-ps5.html">X-DESIGN-PS5</a></li>
+                <li><a href="x-design-xbox.html">X-DESIGN-XBOX</a></li>
+                <li><a href="ofertes-novetats.html">OFERTES I NOVETATS</a></li>
+                <li><a href="contacto.html">CONTACTE</a></li>
+                <li><a href="politica-i-privacidad.html">POLITICA I PRIVACITAT</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="newsletter">
+        <h3> NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="El Teu Email">
+            <button>Enviar</button>
+            <div class="politica-privacidad">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="privacidad" required>
+                    <span class="checkmark"></span>
+                </label>
+                <label for="privacidad">
+                    He llegit i accepto la
+                    <a href="politica-i-privacidad.html" target="_blank">Política i Privacitat</a>
+                </label>
+            </div>
+        </form>
+    </div>
+</footer>     
+<script src="js/script.js"></script>
+</body>
+</html>

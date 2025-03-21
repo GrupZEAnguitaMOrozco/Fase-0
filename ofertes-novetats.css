@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #000E16;
+    color: black;
+    font-family: Russ One, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 7);
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 25px;
+    background: #02ACE9;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 30px;
+}
+
+.logo-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo-container img {
+    width: 140px;
+    height: auto;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Icons {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+}
+
+.Icons img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.productos img{
+    width: 250px;
+}
+.producto{
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    position: relative;
+    color: white;
+}
+.producto img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.precio{
+     font-size: 20px;
+     color: #4caf50;
+     font-weight: bold;
+}
+.boton{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 130px;
+}
+.boton :hover{
+    background-color: #0056b3;
+}
+.stock{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    background: #051921;
+    color: #38B6FF;
+    font-size: 18px;
+    position: absolute;
+
+}
+.socials-icons {
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    padding: 0px;
+}
+
+.socials-icons a {
+    display: flex;
+    width: 50px;  
+    height: 50px; 
+    border: 2px solid #38B6FF; 
+    border-radius: 50%; 
+    color: #38B6FF; 
+    font-size: 24px; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+
+.tienda{
+    text-align: left;
+    position: absolute;
+    right: 750px;
+    margin-top: 4px;
+    color: #38B6FF;
+
+    
+}
+.tienda h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #38B6FF;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+.tienda ul{
+    list-style: disc;
+    margin: 0;
+    padding-left: 15px;    
+}
+.tienda ul li a{
+    color: #38B6FF;
+    font-size: 18px;
+}
+.newsletter{
+    width: 250px;
+    padding: 20px;
+    background: #051921;
+    color: #38B6FF;
+    font-family: 'Russ One', sans-serif;
+    position: absolute;
+right: 100px;
+}
+.newsletter h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #38B6FF;
+    padding-bottom: 5px;
+
+}
+
+.newsletter input[type="email"]{
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #38B6FF;
+    background: transparent;
+    color: #fff;
+}
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.newsletter button {
+    width: 100%;
+    padding: 8px;
+    background: #38B6FF;
+    border: none;
+    color: #051921;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
