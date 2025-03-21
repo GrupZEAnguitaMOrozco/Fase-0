@@ -32,19 +32,19 @@ if(document.getElementById('container')){
         const isXboxPage = window.location.pathname.includes("x-design-xbox");
     
         const ps5Images = {
-            white: "images/mando2PS5.png",
-            black: "images/mandonegro.png",
-            red: "images/mandorojo.png",
-            blue: "images/mandoazul.png",
-            green: "images/mandoverde.png",
+            white: "mando2PS5.png",
+            black: "mandonegro.png",
+            red: "mandorojo.png",
+            blue: "mandoazul.png",
+            green: "mandoverde.png",
         };
     
         const xboxImages = {
-            white: "images/mandoblancoxbox.png",
-            black: "images/mandonegroxbox.png",
-            red: "images/mandorojoxbox.png",
-            blue: "images/mandoazulxbox.png",
-            green: "images/mandoverdexbox.png",
+            white: "mandoblancoxbox.png",
+            black: "mandonegroxbox.png",
+            red: "mandorojoxbox.png",
+            blue: "mandoazulxbox.png",
+            green: "mandoverdexbox.png",
         };
     
         colors.forEach(color => {
